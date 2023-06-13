@@ -5,9 +5,6 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-        <!-- <link rel="stylesheet" href="../src/style/main.css">
-    <link rel="stylesheet" href="../src/style/responsive.css"> -->
         <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 
         <!-- link font awesome cdn   -->
@@ -19,35 +16,11 @@
     <body>
         <!-- <a href="#content" class="skip-link">Skip to content ?</a> -->
         <header>
-            <div class="app-bar">
-                <div class="app-bar__menu" id="menu">
-                    <button id="hamburgerButton">☰</button>
-                </div>
-
-                <div class="app-bar__brand">
-                    <h1>Green Hunter Tour</h1>
-                </div>
-
-                <nav id="drawer" class="bar-nav">
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#/explore">Explore</a></li>
-                        <li><a href="">About Us</a></li>
-                        <li><a href="#/login">Login</a></li>
-                    </ul>
-                </nav>
-            </div>
+            <app-bar></app-bar>
         </header>
 
         <!--Jumbotron-->
-        <div class="hero">
-            <div class="hero__inner">
-                <h1 class="hero__title">Explore Keindahan</h1>
-                <p class="hero__subtitle">
-                    Nusa Tenggara Timur.
-                </p>
-            </div>
-        </div>
+        <jumbotran-element></jumbotran-element>
 
         <!-- Content -->
         <main>
@@ -185,6 +158,10 @@
                             </div>
                         </div>
                     </div>
+
+                </div>
+                <div class="content">
+                    <button><a href="#/Explore">Get Started</a></button>
                 </div>
             </div>
 
@@ -192,38 +169,7 @@
 
         <!-- Mulai  Footer -->
 
-        <section class="footer">
-
-            <div class="box-container">
-
-                <div class="box">
-                    <h3>Link Utama</h3>
-                    <a href="#"> <i class="fas fa-angle-right"></i> Home</a>
-                    <a href="#/explore"> <i class="fas fa-angle-right"></i> Explore</a>
-                    <a href=""> <i class="fas fa-angle-right"></i> About US</a>
-                    <a href="#/login"> <i class="fas fa-angle-right"></i> Login</a>
-                </div>
-
-                <div class="box">
-                    <h3>Info Kontak</h3>
-                    <a href="#"> <i class="fas fa-phone"></i> +62811112225</a>
-                    <a href="#"> <i class="fas fa-phone"></i> +62851111222 </a>
-                    <a href="#"> <i class="fas fa-envelope"></i> monicaaudry@gmail.com </a>
-                    <a href="#"> <i class="fas fa-map"></i> NTT, Indonesia</a>
-                </div>
-
-                <div class="box">
-                    <h3>Follow Kami</h3>
-                    <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
-                    <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
-                    <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
-                    <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
-                </div>
-
-            </div>
-
-            <div class="credit"> Copyright <span>Green Hunter Tour </span> 2023 </div>
-        </section>
+        <footer-element></footer-element>
 
     </body>
 

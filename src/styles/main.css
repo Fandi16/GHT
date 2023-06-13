@@ -89,7 +89,7 @@ header{
 
 .app-bar .bar-nav {
     position: absolute;
-    top: 50px;
+    top: 67px;
     left: -180px;
     width: 150px;
     transition: all 0.3s;
@@ -100,8 +100,20 @@ header{
 }
   
 .app-bar .bar-nav.open {
+    padding-top: 30px;
     left: 0;
-    background-color: #ce3734;
+    background-color: #f1f1f1ab;
+    text-align: center;
+    width: 100%;
+    
+}
+.app-bar .bar-nav.close{
+    background-color: #253E45;
+    
+}
+.app-bar .bar-nav.open ul li a{
+    color: #253E45;
+    font-weight: bold;
 }
   
 .app-bar .bar-nav ul li a {
@@ -119,7 +131,7 @@ header{
 }
   
 .app-bar .bar-nav ul li a:hover {
-    color: rgb(241, 28, 110);
+    color: rgb(250, 253, 43);
     font-weight: 800;
 }
 
@@ -147,7 +159,7 @@ JUMBUTRAN
     font-family: 'Rampart One', 'Shantell Sans', 'Quicksand', sans-serif;
     font-weight: 800;
     font-size: 70px;
-    text-shadow: 1px 1px rgb(133, 6, 84);
+    text-shadow: 1px 1px rgb(250, 253, 43);
 }
 
 .hero__subtitle {
@@ -157,7 +169,7 @@ JUMBUTRAN
     font-size: 35px;
     padding: 8px;
     font-weight: 600;
-    text-shadow: 1px 1px rgb(133, 6, 84);
+    text-shadow: 1px 1px rgb(250, 253, 43);
 }
 
 /*
@@ -239,6 +251,21 @@ CONTENT WISATA
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+}
+.content-wisata .content button {
+    top: 30px;
+    width: 200px;
+    height: 40px;
+    background-color: #253E45;
+    border-radius: 10px;
+}
+.content-wisata .content{
+    padding-top: 30px;
+    
+}
+.content-wisata .content button a {
+    color: rgb(250, 253, 43);
+    font-size: 2em;
 }
 
 .card {
@@ -373,11 +400,11 @@ FOOTER
     text-align: center;
     padding-top: 2rem;
     margin-top: .5rem;
-    border-top: .1rem solid red;
+    border-top: .1rem solid rgb(250, 253, 43);
     font-size: 1.2rem;
     color: var(--white);
 }
 
 .footer .credit span {
-    color: red;
+    color: rgb(250, 253, 43);
 }
