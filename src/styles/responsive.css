@@ -1,0 +1,88 @@
+@media screen and (min-width: 754px) {
+	.app-bar{
+		grid-template-columns: 1fr auto;
+		padding: 8px 32px;
+	}
+
+	.app-bar .app-bar__brand h1 {
+      font-size: 1.5em;
+    }
+   
+    .app-bar .app-bar__menu {
+      display: none;
+    }
+   
+    .app-bar .bar-nav {
+      position: static;
+      width: 100%;
+    }
+   
+    .app-bar .bar-nav ul li {
+      display: inline-block;
+    }
+   
+    .app-bar .bar-nav ul li a {
+      display: inline-block;
+      width: 120px;
+      text-align: center;
+      margin: 0;
+    }
+
+    main .content {
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+@media screen and (min-width: 863px) {
+	.app-bar .app-bar__brand h1{
+		font-size: 2em;
+	}
+}
+
+@media screen and (max-width: 850px){
+    main {
+        padding: 1rem 1rem;
+    }
+
+    .hero__title{
+        font-size: 55px;
+    }
+
+    .hero__subtitle{
+        font-size: 25px;
+    }
+
+    main .content .information .content-description{
+        flex: 1 1 1;
+    }
+
+    main .content .information .content-description .title{
+        font-size: 15px;
+        margin-block: 1rem;
+    }
+
+    main .content .information .content-description p {
+        line-height: 1rem;
+        font-size: 10px;
+    }
+    
+    main .content .information .content-image {
+        flex: 1 1 1;
+        display: flex;
+    }
+       
+    main .content .information .content-image img {
+        margin: auto;
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+	.hero {
+		min-width: 1000px;
+	}
+	main {
+		max-width: 1200px
+	}
+}

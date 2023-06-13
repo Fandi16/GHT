@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Montserrat:wght@300;600&family=Quicksand:wght@400;600&family=Rampart+One&family=Rubik+Iso&family=Shantell+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=League+Spartan:wght@400;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', 'Bitter', 'Montserrat', sans-serif;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: all .2s linear;
+}
+
+body,
+html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    font-size: 12px;
+    color: #424242;
+    align-items: center;
+}
+
+/*
+  AppBar
+*/
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+.app-bar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    width: 100%;
+    padding: 8px 16px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 10px;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    background-color: #253E45;
+}
+
+.app-bar .app-bar__menu {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.app-bar .app-bar__menu button {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    padding: 12px;
+    cursor: pointer;
+    color: white;
+    margin-left: -10px;
+}
+
+.app-bar .app-bar__brand {
+    display: flex;
+    align-items: center;
+}
+
+.app-bar .app-bar__brand h1 {
+    width: 100%;
+    color: rgb(245, 239, 239);
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 22px;
+    user-select: none;
+}
+
+.app-bar .bar-nav {
+    position: absolute;
+    top: 50px;
+    left: -180px;
+    width: 150px;
+    transition: all 0.3s;
+    padding: 10px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+  
+.app-bar .bar-nav.open {
+    left: 0;
+    background-color: #ce3734;
+}
+  
+.app-bar .bar-nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(245, 239, 239);
+    padding: 10px;
+    margin-bottom: 5px;
+    width: 100%;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+.app-bar .bar-nav ul li a:hover {
+    color: rgb(241, 28, 110);
+    font-weight: 800;
+}
+
+/*
+JUMBUTRAN
+*/
+
+.hero {
+    background-image: url('../public/image/header.jpg');
+    display: flex;
+    align-items: center;
+    min-height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+  
+.hero__inner {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.hero__title {
+    color: #ffffff;
+    font-family: 'Rampart One', 'Shantell Sans', 'Quicksand', sans-serif;
+    font-weight: 800;
+    font-size: 70px;
+    text-shadow: 1px 1px rgb(133, 6, 84);
+}
+
+.hero__subtitle {
+    color: #fff;
+    font-family: 'Rampart One', 'Shantell Sans', 'Quicksand', sans-serif;
+    margin-top: 16px;
+    font-size: 35px;
+    padding: 8px;
+    font-weight: 600;
+    text-shadow: 1px 1px rgb(133, 6, 84);
+}
+
+/*
+MAIN
+*/
+
+main{
+    max-width: 1200px;
+    width: 100%;
+    margin-inline: auto;
+    padding: 2rem 4rem;
+    align-items: center;
+}
+
+main .content .information{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+main .content .information .content-description{
+    flex: 1 1 1;
+}
+
+main .content .information .content-description .title{
+    font-size: 20px;
+    margin-block: 1rem;
+    border-bottom: .2rem solid rgb(6, 88, 13);
+}
+
+main .content .information .content-description p {
+    line-height: 1.7rem;
+    font-size: 15px;
+}
+
+main .content .information .content-image {
+    flex: 1 1 1;
+    display: flex;
+}
+   
+main .content .information .content-image img {
+    margin: auto;
+    min-width: 250px;
+    width: 300px;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+}
+
+/*
+CONTENT WISATA
+*/
+
+.content-wisata{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-wisata .content h1{
+    font-size: 42px;
+    color: #000;
+    font-family: 'Rampart One', 'Shantell Sans', 'Quicksand', sans-serif;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.content-wisata .content img{
+    max-width: 320px;
+    border: 3px solid white;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+.content-wisata .kategori-wisata{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    position: relative;
+    width: 200px;
+    height: 150px;
+    margin: 20px;
+}
+
+.card .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.card .front {
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 5px 10px #000;
+}
+
+.card .front img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card .front h3 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    background: rgba(0,0,0,.4);
+    text-align: center;
+}
+
+.card .back {
+    transform: perspective(600px) rotateY(180deg);
+    background: rgb(3, 35, 54);
+    padding: 10px;
+    color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: 0 5px 10px #000;
+}
+
+.card .back .link {
+    border-top: solid 1px #f3f3f3;
+    height: 50px;
+    line-height: 50px;
+}
+
+.card .back .link a {
+    color: #f3f3f3;
+}
+
+.card .back h3 {
+    font-size: 20px;
+    margin-top: 5px;
+    letter-spacing: 2px;
+}
+
+.card .back p {
+    letter-spacing: 1px;
+    font-size: 9px;
+} 
+
+.card:hover .front {
+    transform: perspective(600px) rotateY(180deg);
+}
+
+.card:hover .back {
+    transform: perspective(600px) rotateY(360deg);
+}
+
+
+
+
+
+
+
+/*
+FOOTER
+*/
+
+.footer {
+    background-color: #253E45;
+    color: #fff;
+    width: 100%;
+    align-items: center;
+    margin-inline: auto;
+    padding: 2rem 6.7rem;
+}
+
+.footer .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+}
+
+.footer .box-container .box h3 {
+    color: var(--white);
+    font-size: 16px;
+    padding-bottom: 1rem;
+}
+
+.footer .box-container .box a {
+    color: var(--light-white);
+    font-size: 14px;
+    padding-bottom: 0.5rem;
+    display: block;
+}
+
+.footer .box-container .box a i {
+    color: var(--main-color);
+    padding-right: .5rem;
+    transition: .2s linear;
+}
+
+.footer .box-container .box a:hover i {
+    padding-right: 2rem;
+}
+
+.footer .credit {
+    text-align: center;
+    padding-top: 2rem;
+    margin-top: .5rem;
+    border-top: .1rem solid red;
+    font-size: 1.2rem;
+    color: var(--white);
+}
+
+.footer .credit span {
+    color: red;
+}
