@@ -4,7 +4,7 @@ const explore = {
           <h2>Now Explore Page</h2>
         `;
   },
-async afterRender() {
+  async afterRender() {
     // Fungsi ini akan dipanggil setelah render()
   },
 };

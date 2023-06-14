@@ -4,7 +4,7 @@ const Detail = {
           <h2>Now Detail Page</h2>
         `;
   },
-async afterRender() {
+  async afterRender() {
     // Fungsi ini akan dipanggil setelah render()
   },
 };
