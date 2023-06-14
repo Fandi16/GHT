@@ -18,7 +18,7 @@ class AppBar extends HTMLElement {
                 <nav id="drawer" class="bar-nav">
                     <ul>
                         <li><a href="#">Home</a></li>
-                        <li><a href="#/Explore">Explore</a></li>
+                        <li><a href="#/explore">Explore</a></li>
                         <li><a href="">About Us</a></li>
                         <li><a href="#/login">Login</a></li>
                     </ul>
