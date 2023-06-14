@@ -1,0 +1,94 @@
+{
+    "wisata": [
+      {
+        "id": "01",
+        "name": "Pantai Pink",
+        "description": "Saat memasuki kawasan Taman Nasional Komodo, kamu bisa menemukan pantai yang sangat unik. Biasanya, hamparan pasir pantai berwarna putih atau hitam. Anehnya, pantai ini punya hamparan pasir yang berwarna merah muda. Warnanya mencolok banget, apalagi saat terkena sinar matahari.",
+        "pictureId": "https://cdn.idntimes.com/content-images/post/20191223/74879303-216660275991570-7657361271454078273-n-2d45d01ed202e7ef3208bdb1ff79feec.jpg",
+        "location": "Taman Nasional Komodo, Jalan Kasimo, Kecamatan Labuan Bajo, Kabupaten Manggarai Barat, Nusa Tenggara Timur",
+        "time": "24 Jam",
+        "price": 5000
+      },
+      {
+        "id": "02",
+        "name": "Danau Kelimutu",
+        "description": "Danau Kelimutu yang dikenal sebagai 'Danau Tiga Warna' ini berada di Taman Nasional Kelimutu. Disebut sebagai 'Danau Tiga Warna', karena sering berubah-ubah warnanya jadi merah dan coklat tua. Kamu bisa menikmati keindahan danau ini, setelah mendaki Gunung Kelimutu yang berada di ketinggian 1.631 meter di atas permukaan laut.",
+        "pictureId": "https://cdn.idntimes.com/content-images/post/20191223/69463083-729061354204487-5484493197146213656-n-549469bb6b3455619b776463a2ff9a2a.jpg",
+        "location": "Kecamatan Detusoko, Kabupaten Ende, Nusa Tenggara Timur",
+        "time": "05.00-18.00 WITA",
+        "price": 5000
+      },
+      {
+        "id": "03",
+        "name": "Pulau Padar",
+        "description": "Pulau Padar menawarkan pemandangan perbukitan yang dikelilingi lautan biru. Untuk menikmati keindahan pemandangan tersebut, kamu harus naik ke puncak bukit Gili Padar. Sayangnya, belum ada tangga atau pegangan, sehingga harus ekstra hati-hati saat mendakinya.",
+        "pictureId": "https://cdn.idntimes.com/content-images/post/20191223/75408745-471286273405023-3455884748166906516-n-afd2dbf4996a8d794912aa8c1b9fd671.jpg",
+        "location": "Taman Nasional Komodo, Jalan Kasimo, Kecamatan Labuan Bajo, Kabupaten Manggarai Barat, Nusa Tenggara Timur",
+        "time": "24 Jam",
+        "price": 5000
+      },
+      {
+        "id": "04",
+        "name": "Pantai Lasiana",
+        "description": "Pantai yang berada di Kota Kupang ini cukup mudah diakses, karena hanya berjarak 12 kilometer dari pusat kota. Saat mengunjunginya, kamu akan disambut deretan puluhan pohon kelapa yang menjulang tinggi. Uniknya, ada kapal karam Jepang yang tersimpan di bawah laut, jadi pemandangan paling epik saat diving.",
+        "pictureId": "https://cdn.idntimes.com/content-images/post/20191223/72169034-105001884234948-1907060897786909100-n-627ca663f2c53d4ec4954d603db00612.jpg",
+        "location": "Kelurahan Lasiana, Kecamatan Kelapa Lima, Kota Kupang, Nusa Tenggara Timur",
+        "time": "24 Jam",
+        "price": 2000
+      },
+      {
+        "id": "05",
+        "name": "Pantai Oesapa",
+        "description": "Terkenal dengan sebutan Pantai Warna-warni, karena banyaknya fasilitas kafe yang sangat colorfull. Mulai dari payung, kursi, hingga beanbag-nya. Waktu terbaik untuk mengunjunginya yakni saat matahari akan terbenam. Pemandangannya dijamin makin cantik.",
+        "pictureId": "https://cdn.idntimes.com/content-images/post/20191223/65198380-138232344041011-2860155763848900352-n-4408bb564b3d1619c08e98577ad5ca5f.jpg",
+        "location": "Kelurahan Oesapa, Kecamatan Kelapa Lima, Kota Kupang, Nusa Tenggara Timur",
+        "time": "24 Jam",
+        "price": "Free"
+      },
+      {
+        "id": "06",
+        "name": "Pantai Oetune",
+        "description": "Keunikan hamparan pasir di Pantai Oetune terbentuk seperti gurun yang bergelombang. Tak hanya itu, terdapat sedikit pepohonan lontar dan kausari yang membuat suasana mirip di Afrika. Disarankan datang sebelum matahari terbit, biar kamu bisa menikmati cantiknya sunrise.",
+        "pictureId": "https://cdn.idntimes.com/content-images/post/20191223/46032079-469159856946322-3623002407918063147-n-e6e584a949115738b9d699b986e08374.jpg",
+        "location": "Desa Tuafanu, Kecamatan Kualin, Kabupaten Timor Tengah Selatan, Nusa Tenggara Timur",
+        "time": "24 Jam",
+        "price": ""
+      },
+      {
+        "id": "07",
+        "name": "Bukit Wairinding",
+        "description": "Kalau kamu pernah menonton video klip Man Upon the Hill milik Stars and Rabbit, pasti mengenali bukit ini. Perbukitan yang terdiri dari hamparan savana luas ini menyimpan eksotisme tersendiri. Uniknya, kalau kamu berkunjung pada musim kemarau, langsung disambut savana berwarna kecoklatan. Sebaliknya, saat berkunjung pada musim hujan, savana berubah menjadi hijau.",
+        "pictureId": "https://cdn.idntimes.com/content-images/post/20191223/67972865-136522177587464-4996025198290534080-n-571a8ab42373771d21c70786e8ce5711.jpg",
+        "location": "Kelurahan Pambotanjara, Kota Waingapu, Kabupaten Sumba Timur, Nusa Tenggara Timur",
+        "time": "24 Jam",
+        "price": "Free"
+      },
+      {
+        "id": "08",
+        "name": "Desa Wae Rebo",
+        "description": "Wae Rebo dikenal sebagai desa yang amat memesona. Lokasinya berada di ketinggian 1.200 meter di atas permukaan laut. Seolah-olah desa tradisional ini berada di atas awan. Untuk mencapainya, kamu harus berjalan selama 3-4 jam, karena tak bisa diakses kendaraan bermotor.",
+        "pictureId": "https://cdn.idntimes.com/content-images/post/20191223/28151784-1849148498462771-3942084712717090816-n-3d05f4c25867926b600ba023534700a3.jpg",
+        "location": "Desa Wae Rebo, Kecamatan Satarmese Barat, Kabupaten Manggarai, Nusa Tenggara Timur",
+        "time": "24 Jam",
+        "price": 325000
+      },
+      {
+        "id": "09",
+        "name": "Pulau Meko",
+        "description": "Kalau ingin mengunjungi pulau ini, kamu harus menempuh perjalanan yang jauh. Dari Pelabuhan Pelni Larantuka menyeberang ke Pelabuhan Tubilota, kemudian menuju Desa Meko dengan perjalanan darat selama dua jam. Sesampainya di sana, kamu akan disambut warga lokal yang menawarkan perahu untuk melihat keindahan terumbu karang di tengah laut.",
+        "pictureId": "https://cdn.idntimes.com/content-images/post/20191223/40631366-531988650577660-7215790408075278267-n-f63101028b9e47dd185bb2e7ae6d815c.jpg",
+        "location": "Dusun Meko, Kecamatan Witihama, Kabupaten Flores Timur, Nusa Tenggara Timur",
+        "time": "24 Jam",
+        "price": "Free"
+      },
+      {
+        "id": "10",
+        "name": "Bukit Cinta",
+        "description": "Sebutan Bukit Cinta muncul, karena tempat ini sering digunakan untuk pasangan yang memadu kasih. Perbukitan hijau yang menyimpan keindahan peninggalan gua di baliknya ini jadi destinasi wisata menarik. Sebab, jaraknya sangat dekat dengan bandara, sehingga membuat banyak wisatawan berdatangan.",
+        "pictureId": "https://cdn.idntimes.com/content-images/post/20191223/13651738-2055989084626220-1594787537-n-4a0fb9c63dceea86ee807639d5742222.jpg",
+        "location": "Jalan Prof. Dr. Herman Johanes, Kelurahan Penfui, Kecamatan Kupang Tengah, Kota Kupang, Nusa Tenggara Timur",
+        "time": "24 Jam",
+        "price": "Free"
+      }
+    ]
+}
