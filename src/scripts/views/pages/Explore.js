@@ -3,9 +3,7 @@ import data from './DATA.json';
 const explore = {
   async render() {
     return `
-          <div class="content-wisata">
-            <div class="list" id="tes"></div>
-        </div>
+          <h2>Now Explore Page</h2>
         `;
   },
   async afterRender() {

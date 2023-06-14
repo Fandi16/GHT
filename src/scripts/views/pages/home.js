@@ -3,7 +3,11 @@ import data from './DATA.json';
 const Home = {
   async render() {
     return `
+<<<<<<< HEAD
      <div class="content">
+=======
+      <div class="content">
+>>>>>>> 13a4fe08fdac11082e5a60bb96c2c49e25581e1f
           <div class="information">
               <div class="content-description">
                   <h1 class="title">Discover Your Destination</h1>
@@ -15,6 +19,10 @@ const Home = {
               <div class="content-image">
                   <img src="../image/destination.jpg" alt="Destination">
               </div>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 13a4fe08fdac11082e5a60bb96c2c49e25581e1f
               <div class="content-description">
                   <h1 class="title">Choose Your Perfect Accommodation</h1>
                   <p>
@@ -27,17 +35,29 @@ const Home = {
               </div>
           </div>
       </div>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 13a4fe08fdac11082e5a60bb96c2c49e25581e1f
       <div class="content-wisata">
           <div class="content">
               <h1>TOP Destination</h1>
           </div>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 13a4fe08fdac11082e5a60bb96c2c49e25581e1f
           <div class="list" id="tes"></div>
  
           <div class="content">
               <button><a href="/#/explore">More Destination</a></button>
           </div>
       </div>
+<<<<<<< HEAD
         `;
+=======
+    `;
+>>>>>>> 13a4fe08fdac11082e5a60bb96c2c49e25581e1f
   },
 
   async afterRender() {
