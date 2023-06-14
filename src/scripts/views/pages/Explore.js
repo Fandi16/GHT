@@ -4,7 +4,6 @@ const explore = {
   async render() {
     return `
         <div class="content-wisata">
-            <h1>Which Destination do you want to go to?</h1>
             <div class="list" id="tes"></div>
         </div>
     `;
