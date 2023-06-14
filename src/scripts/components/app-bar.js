@@ -20,7 +20,6 @@ class AppBar extends HTMLElement {
                         <li><a href="#">Home</a></li>
                         <li><a href="#/explore">Explore</a></li>
                         <li><a href="">About Us</a></li>
-                        <li><a href="#/login">Login</a></li>
                     </ul>
                 </nav>
             </div>
