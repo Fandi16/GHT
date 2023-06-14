@@ -49,7 +49,7 @@ const Home = {
 
     firstThreeDestination.forEach((destination) => {
       const listItem = `
-          <div class="kategori-wisata">
+          
               <div class="card">
                   <div class="face front">
                       <img src="${destination.pictureId}" alt="${destination.name}" title="${destination.name}">
@@ -57,13 +57,12 @@ const Home = {
                   </div>
                   <div class="face back">
                       <h3>${destination.name}</h3>
-                      <p>CEK</p>
+                      <p>CEK IN MORE DESTINATION</p>
                       <div class="link">
-                          <a href="#">Details</a>
                       </div>
                   </div>
               </div>
-          </div>
+          
       `;
 
       listElement.innerHTML += listItem;

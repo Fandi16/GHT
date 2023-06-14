@@ -16,6 +16,16 @@ const Detail = {
     detailDestinationElement.innerHTML = `
       <img src="${destination.pictureId}" alt="${destination.name}" title="${destination.name}">
       <h3>${destination.name}</h3>
+      <div class="restaurant__info">
+        <h3>Information</h3>
+        <h4>Description</h4>
+        <p>${destination.description}</p>
+        <h4>Address</h4>
+        <p>${destination.location}</p>
+        <h4>More</h4>
+        <p>Harga Tiket : ${destination.price}</p>
+        <p> Time ${destination.time}</p>
+      <div>
     `;
   },
 };
