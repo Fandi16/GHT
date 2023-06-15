@@ -7,7 +7,21 @@
         "pictureId": "https://cdn.idntimes.com/content-images/post/20191223/74879303-216660275991570-7657361271454078273-n-2d45d01ed202e7ef3208bdb1ff79feec.jpg",
         "location": "Taman Nasional Komodo, Jalan Kasimo, Kecamatan Labuan Bajo, Kabupaten Manggarai Barat, Nusa Tenggara Timur",
         "time": "24 Jam",
-        "price": 5000
+        "price": 5000,
+        "penginapan" : [
+          {
+            "linkH" : "https://www.traveloka.com/en-id/hotel/detail?spec=17-06-2023.18-06-2023.1.1.HOTEL.402891.Jeeva%20Beloam%20Beach%20Camp.1&contexts=%7B%22inventoryRateKey%22%3A%22povEwB3ZzsU2C6pd%2B6MdU13LUNuufACdbU0usK5vg0dM0tKsNUio4Rxug1zOzHJilcvZa8YdqqIySdppe7dolTIewZlxfjiOGz6oXLTucMvN0%2BgQ3yZPvZcoHwUFNN%2BZpcr%2F%2FNa8o9ElfN8zOYhzzZeg0X586laFpeUViPi9rxAr9Xc9RYGHOOvU00okpqsVIvEWeildVo7nbHxIWcXPVNGysXwP9P%2F6jQTjnyKeTv%2ByqYmxSenRKFEfSHS0XO3kZfZPEEhT4qTyZ4NnGlioFk6ay4RXlsebEjOdYqJCyZbH97USA020BgPKyKc7zuRSOgJlRD1ViGMIp7QS%2B%2BBpmWfxa3MY%2Bk28ILHsNwZ6G%2FNGOtaiV%2Bgh4YG%2FkiP9POwH%2B6EJsWd3l3ySG7Noz64MEh4FwitYraL0IEx6NmB7cX8oHQGxi5ugi5xG8GZ3LLJn%2B%2BfNqDfMsi4qyKjapz8T4qQ%2BjgAtJSRmIL7WdsmYhViGixODei%2FNdx2RuCUEGmeMAUyxf%2BoM7B5yfJewzeVoU2%2FtVYQKI1lMuX%2BRaPNcBUAvSnVpp3982X8ufymNCG%2Bvqv3rBuUa%2BDAlSlNPC7rHF8TsYmOTADU69%2B%2B%2Fol8yLJTHHQhvr%2Bf5O5wjhPZDddaEMD1lhgrNFX59TpZvCV9M4rSDCIHqoFDFRnsCphC6IUw%3D%22%7D&prevSearchId=1768740005825502419&loginPromo=1",
+            "nameH" : "Jeeva Beloam Beach Camp",
+            "gambarH" : "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10003151-850x465-FIT_AND_TRIM-99e3227a04354378472e26964db6d680.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+            "rateH" : 4
+          },
+          {
+            "linkH" : "https://www.oyorooms.com/id/84526/?checkin=29%2F06%2F2023&checkout=30%2F06%2F2023&rooms=1&guests=2&rooms_config=1-2_0&selected_rcid=30",
+            "nameH" : "OYO 1837 Telone Bungalow",
+            "gambarH" : "https://images.oyoroomscdn.com/uploads/hotel_image/84526/large/fd14d1fe55b45e07.jpg",
+            "rateH" : 4
+          }
+        ]
       },
       {
         "id": "02",
@@ -16,7 +30,21 @@
         "pictureId": "https://cdn.idntimes.com/content-images/post/20191223/69463083-729061354204487-5484493197146213656-n-549469bb6b3455619b776463a2ff9a2a.jpg",
         "location": "Kecamatan Detusoko, Kabupaten Ende, Nusa Tenggara Timur",
         "time": "05.00-18.00 WITA",
-        "price": 5000
+        "price": 5000,
+        "penginapan" : [
+          {
+            "linkH" : "https://www.booking.com/hotel/id/mahakali.en-gb.html?aid=1893449&label=metagha-link-MRID-hotel-4377041_dev-desktop_los-1_bw-14_dow-Thursday_defdate-1_room-0_gstadt-2_rateid-public_aud-0_gacid-6644255675_mcid-10_ppa-0_clrid-0_ad-1_gstkid-0_checkin-20230629__lp-20441_r-19033906331369963119&sid=1937405b1b7b471269ea8809b5fa3f17&all_sr_blocks=437704101_147505642_3_9_0&checkin=2023-06-29&checkout=2023-06-30&dest_id=900052994&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&highlighted_blocks=437704101_147505642_3_9_0&hpos=1&matching_block_id=437704101_147505642_3_9_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=437704101_147505642_3_9_0__33000000&srepoch=1686804933&srpvid=bbff22a15d2e0200&type=total&ucfs=1&activeTab=main",
+            "nameH" : "Mahakali",
+            "gambarH" : "https://cf.bstatic.com/xdata/images/hotel/max1024x768/380183032.jpg?k=57cdb186a07e52deaf38c53569a687442c710c621ffe67dd4b2cd3fa6e7365ad&o=&hp=1",
+            "rateH" : 1
+          },
+          {
+            "linkH" : "https://m.tiket.com/hotel/indonesia/kelimutu-paradiso-resort-512001670217636485?hotelID=34a91172-9267-421c-b8ad-00b04c91abf2&checkin=2023-06-29&checkout=2023-06-30&adult=2&country=ID&device=desktop&utm_source=google-hotel&utm_medium=hotelAds&utm_campaign=Google-Hotel-0023-B2B-none-hotel&gclid=CjwKCAjwyqWkBhBMEiwAp2yUFv53IP_6FccFbsB8MJ54zYaZhjzOZF3P7qoWaYGUGSyqo2fVdULMjhoCVhYQAvD_BwE",
+            "nameH" : "Kelimutu Paradiso Resort",
+            "gambarH" : "https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/t_htl-dskt/tix-hotel/images-web/2022/12/05/dd8f829c-e029-4825-b144-4d062bc08a72-1670217639456-a240047faaddff3d154cdeb238eef312.jpg",
+            "rateH" : 3
+          }
+        ]
       },
       {
         "id": "03",
@@ -25,7 +53,21 @@
         "pictureId": "https://cdn.idntimes.com/content-images/post/20191223/75408745-471286273405023-3455884748166906516-n-afd2dbf4996a8d794912aa8c1b9fd671.jpg",
         "location": "Taman Nasional Komodo, Jalan Kasimo, Kecamatan Labuan Bajo, Kabupaten Manggarai Barat, Nusa Tenggara Timur",
         "time": "24 Jam",
-        "price": 5000
+        "price": 5000,
+        "penginapan" : [
+          {
+            "linkH" : "https://www.booking.com/hotel/id/the-jayakarta-suite-komodo-flores.en-gb.html?aid=2127671&label=metagha-link-MRID-hotel-242673_dev-desktop_los-1_bw-14_dow-Thursday_defdate-1_room-0_gstadt-2_rateid-dg_aud-0_gacid-_mcid-10_ppa-1_clrid-0_ad-0_gstkid-0_checkin-20230629_&sid=1937405b1b7b471269ea8809b5fa3f17&all_sr_blocks=24267301_88826188_0_1_0&checkin=2023-06-29&checkout=2023-06-30&dest_id=-2683993&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&highlighted_blocks=24267301_88826188_0_1_0&hpos=1&matching_block_id=24267301_88826188_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=24267301_88826188_0_1_0__93960000&srepoch=1686813502&srpvid=8106335ef1fd0012&type=total&ucfs=1&activeTab=main",
+            "nameH" : "The Jayakarta Suites Komodo Flores",
+            "gambarH" : "https://cf.bstatic.com/xdata/images/hotel/max1024x768/286689556.jpg?k=3947c6cad20ab5f754235b83dcc1faf8ae78d2974f22d53625b4bbb23dd0bf3e&o=&hp=1",
+            "rateH" : 4
+          },
+          {
+            "linkH" : "https://m.tiket.com/hotel/indonesia/bajo-komodo-eco-lodge-108001534490386009?hotelID=84722ba1-997b-44f8-88a7-1c7d1bb98385&checkin=2023-06-29&checkout=2023-06-30&adult=2&country=ID&device=desktop&utm_source=google-hotel&utm_medium=hotelAds&utm_campaign=Google-Hotel-0023-B2B-none-hotel&gclid=Cj0KCQjw7aqkBhDPARIsAKGa0oKWeYn6rG3POYT62zygr-sEUEx_aHSbEr5m5UOaE3iqdXuZqk26qFYaAo-3EALw_wcB",
+            "nameH" : "Sudamala Resort, Komodo",
+            "gambarH" : "https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/t_htl-dskt/tix-hotel/images-web/2021/11/28/1c2f7776-f520-49a3-89cb-6c0179e01e9c-1638101121704-2152e37b664b7a2773d6045e85d0d4fa.jpg",
+            "rateH" : 5
+          }
+        ]
       },
       {
         "id": "04",
@@ -34,7 +76,21 @@
         "pictureId": "https://cdn.idntimes.com/content-images/post/20191223/72169034-105001884234948-1907060897786909100-n-627ca663f2c53d4ec4954d603db00612.jpg",
         "location": "Kelurahan Lasiana, Kecamatan Kelapa Lima, Kota Kupang, Nusa Tenggara Timur",
         "time": "24 Jam",
-        "price": 2000
+        "price": 2000,
+        "penginapan" : [
+          {
+            "linkH" : "https://m.tiket.com/hotel/indonesia/hotel-le-detadu-kupang-111001542361538946?hotelID=9e6fc830-8b11-4b5d-ab29-5c0a9c667923&checkin=2023-06-29&checkout=2023-06-30&adult=2&country=ID&device=desktop&utm_source=google-hotel&utm_medium=hotelAds&utm_campaign=Google-Hotel-0023-B2B-none-hotel&gclid=Cj0KCQjw7aqkBhDPARIsAKGa0oLZr2c7EexlEUcj0aHl_NStby4yzUUceiEPaBNsY8alT6FKJkm8ImEaAi2rEALw_wcB",
+            "nameH" : "Hotel Le Detadu Kupang",
+            "gambarH" : "https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/t_htl-dskt/tix-hotel/images-web/2020/10/29/50c68893-4240-47e7-b4d4-e8fbbf4bab7d-1603931944609-2a1ce9944b30d067fd0ed7145fb67651.jpg",
+            "rateH" : 1
+          },
+          {
+            "linkH" : "https://www.booking.com/hotel/id/neo-eltari-kupang.en-gb.html?aid=1893449&label=metagha-link-MRID-hotel-1421920_dev-desktop_los-1_bw-14_dow-Thursday_defdate-1_room-0_gstadt-2_rateid-public_aud-0_gacid-6644255675_mcid-33_ppa-0_clrid-0_ad-1_gstkid-0_checkin-20230629__lp-20441_r-19129695091300858526&sid=1937405b1b7b471269ea8809b5fa3f17&all_sr_blocks=142192001_335435215_0_2_0;checkin=2023-06-29;checkout=2023-06-30;dest_id=-2683758;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;highlighted_blocks=142192001_335435215_0_2_0;hpos=1;matching_block_id=142192001_335435215_0_2_0;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;sr_pri_blocks=142192001_335435215_0_2_0__46132500;srepoch=1686814516;srpvid=49233559276801d4;type=total;ucfs=1&#hotelTmpl",
+            "nameH" : "Neo Eltari Kupang by ASTON",
+            "gambarH" : "https://cf.bstatic.com/xdata/images/hotel/max1024x768/55932579.jpg?k=09d26e702622d6ad39eeb6d480f9e6317dcfd0ec91a290d2cb79dfe4d48bbe14&o=&hp=1",
+            "rateH" : 3
+          }
+        ]
       },
       {
         "id": "05",
@@ -43,7 +99,21 @@
         "pictureId": "https://cdn.idntimes.com/content-images/post/20191223/65198380-138232344041011-2860155763848900352-n-4408bb564b3d1619c08e98577ad5ca5f.jpg",
         "location": "Kelurahan Oesapa, Kecamatan Kelapa Lima, Kota Kupang, Nusa Tenggara Timur",
         "time": "24 Jam",
-        "price": "Free"
+        "price": "Free",
+        "penginapan" : [
+          {
+            "linkH" : "https://m.tiket.com/hotel/indonesia/hotel-le-detadu-kupang-111001542361538946?hotelID=9e6fc830-8b11-4b5d-ab29-5c0a9c667923&checkin=2023-06-29&checkout=2023-06-30&adult=2&country=ID&device=desktop&utm_source=google-hotel&utm_medium=hotelAds&utm_campaign=Google-Hotel-0023-B2B-none-hotel&gclid=Cj0KCQjw7aqkBhDPARIsAKGa0oLZr2c7EexlEUcj0aHl_NStby4yzUUceiEPaBNsY8alT6FKJkm8ImEaAi2rEALw_wcB",
+            "nameH" : "Hotel Le Detadu Kupang",
+            "gambarH" : "https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/t_htl-dskt/tix-hotel/images-web/2020/10/29/50c68893-4240-47e7-b4d4-e8fbbf4bab7d-1603931944609-2a1ce9944b30d067fd0ed7145fb67651.jpg",
+            "rateH" : 1
+          },
+          {
+            "linkH" : "https://www.booking.com/hotel/id/neo-eltari-kupang.en-gb.html?aid=1893449&label=metagha-link-MRID-hotel-1421920_dev-desktop_los-1_bw-14_dow-Thursday_defdate-1_room-0_gstadt-2_rateid-public_aud-0_gacid-6644255675_mcid-33_ppa-0_clrid-0_ad-1_gstkid-0_checkin-20230629__lp-20441_r-19129695091300858526&sid=1937405b1b7b471269ea8809b5fa3f17&all_sr_blocks=142192001_335435215_0_2_0;checkin=2023-06-29;checkout=2023-06-30;dest_id=-2683758;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;highlighted_blocks=142192001_335435215_0_2_0;hpos=1;matching_block_id=142192001_335435215_0_2_0;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;sr_pri_blocks=142192001_335435215_0_2_0__46132500;srepoch=1686814516;srpvid=49233559276801d4;type=total;ucfs=1&#hotelTmpl",
+            "nameH" : "Neo Eltari Kupang by ASTON",
+            "gambarH" : "https://cf.bstatic.com/xdata/images/hotel/max1024x768/55932579.jpg?k=09d26e702622d6ad39eeb6d480f9e6317dcfd0ec91a290d2cb79dfe4d48bbe14&o=&hp=1",
+            "rateH" : 3
+          }
+        ]
       },
       {
         "id": "06",
@@ -52,7 +122,21 @@
         "pictureId": "https://cdn.idntimes.com/content-images/post/20191223/46032079-469159856946322-3623002407918063147-n-e6e584a949115738b9d699b986e08374.jpg",
         "location": "Desa Tuafanu, Kecamatan Kualin, Kabupaten Timor Tengah Selatan, Nusa Tenggara Timur",
         "time": "24 Jam",
-        "price": ""
+        "price": "",
+        "penginapan" : [
+          {
+            "linkH" : "https://m.tiket.com/hotel/indonesia/hotel-on-the-rock-by-prasanthi-sea-view-108001534490316551?hotelID=37e4c717-89f4-4bc6-a30f-8973a6d39e9d&checkin=2023-06-29&checkout=2023-06-30&adult=2&country=ID&device=desktop&utm_source=google-hotel&utm_medium=hotelAds&utm_campaign=Google-Hotel-0023-B2B-none-hotel",
+            "nameH" : "Hotel On The Rock By Prasanthi Sea View",
+            "gambarH" : "https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/t_htl-dskt/tix-hotel/images-web/2020/10/28/bcb4048b-a713-4047-a52b-b0444b8bc078-1603890566993-a279fd6038b3116205d4b02ba72e9f2f.jpg",
+            "rateH" : 4
+          },
+          {
+            "linkH" : "https://www.booking.com/hotel/id/sylvia-kupang.en-gb.html?aid=2127671&label=metagha-link-MRID-hotel-1295273_dev-desktop_los-1_bw-14_dow-Thursday_defdate-1_room-0_gstadt-2_rateid-public_aud-0_gacid-_mcid-33_ppa-1_clrid-0_ad-0_gstkid-0_checkin-20230629_&sid=1937405b1b7b471269ea8809b5fa3f17&all_sr_blocks=129527301_0_2_0_0&checkin=2023-06-29&checkout=2023-06-30&dest_id=-2683758&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&highlighted_blocks=129527301_0_2_0_0&hpos=1&matching_block_id=129527301_0_2_0_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=129527301_0_2_0_0__38346810&srepoch=1686816862&srpvid=50be39ee72db0023&type=total&ucfs=1&activeTab=main",
+            "nameH" : "Sylvia Hotel Kupang",
+            "gambarH" : "https://cf.bstatic.com/xdata/images/hotel/max1024x768/42682655.jpg?k=c9d40487fd7f2c458b3a8cbbafe757e6fbf1be2d6bdb3c761a12ffbc79384bf6&o=&hp=1",
+            "rateH" : 3
+          }
+        ]
       },
       {
         "id": "07",
@@ -61,7 +145,21 @@
         "pictureId": "https://cdn.idntimes.com/content-images/post/20191223/67972865-136522177587464-4996025198290534080-n-571a8ab42373771d21c70786e8ce5711.jpg",
         "location": "Kelurahan Pambotanjara, Kota Waingapu, Kabupaten Sumba Timur, Nusa Tenggara Timur",
         "time": "24 Jam",
-        "price": "Free"
+        "price": "Free",
+        "penginapan" : [
+          {
+            "linkH" : "https://m.tiket.com/hotel/indonesia/lope-homestay-507001656902597993?hotelID=fe0fecc5-585e-43a8-b01a-eb4d656120fe&checkin=2023-06-29&checkout=2023-06-30&adult=2&country=ID&device=desktop&utm_source=google-hotel&utm_medium=hotelAds&utm_campaign=Google-Hotel-0023-B2B-none-hotel&gclid=Cj0KCQjw7aqkBhDPARIsAKGa0oI7qXV0O_gKURWpMGSMFCUEKUhWw-5Qhql5lWSE2L8aG62FiLUxUHAaAh_bEALw_wcB",
+            "nameH" : "LOPE Homestay",
+            "gambarH" : "https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/t_htl-dskt/tix-hotel/images-web/2023/05/21/10a8ab7b-3027-40b0-ab3a-bda51193119c-1684631710630-fc4c432c30c50209acf67ad7e5f9b18a.jpg",
+            "rateH" : 1
+          },
+          {
+            "linkH" : "",
+            "nameH" : "",
+            "gambarH" : "",
+            "rateH" : 4
+          }
+        ]
       },
       {
         "id": "08",
@@ -70,7 +168,21 @@
         "pictureId": "https://cdn.idntimes.com/content-images/post/20191223/28151784-1849148498462771-3942084712717090816-n-3d05f4c25867926b600ba023534700a3.jpg",
         "location": "Desa Wae Rebo, Kecamatan Satarmese Barat, Kabupaten Manggarai, Nusa Tenggara Timur",
         "time": "24 Jam",
-        "price": 325000
+        "price": 325000,
+        "penginapan" : [
+          {
+            "linkH" : "https://www.booking.com/hotel/id/parlezo.en-gb.html?aid=1893449&label=metagha-link-MRID-hotel-5534008_dev-desktop_los-1_bw-14_dow-Thursday_defdate-1_room-0_gstadt-2_rateid-public_aud-0_gacid-6644255675_mcid-10_ppa-0_clrid-0_ad-1_gstkid-0_checkin-20230629__lp-20441_r-15877978441486566486&sid=1937405b1b7b471269ea8809b5fa3f17&all_sr_blocks=553400801_203996377_2_1_0&checkin=2023-06-29&checkout=2023-06-30&dest_id=-2685018&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&highlighted_blocks=553400801_203996377_2_1_0&hpos=1&matching_block_id=553400801_203996377_2_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=553400801_203996377_2_1_0__35200000&srepoch=1686817732&srpvid=bf6e3ba1aecf0192&type=total&ucfs=1&activeTab=main",
+            "nameH" : "ParLezo",
+            "gambarH" : "https://cf.bstatic.com/xdata/images/hotel/max1024x768/216376952.jpg?k=cd4b901601aa176e5fb501581906e17e0fe431b50b97aecb0324e13ad8912729&o=&hp=1",
+            "rateH" : "-"
+          },
+          {
+            "linkH" : "https://www.booking.com/hotel/id/todo-purang-tedeng-home-stay.en-gb.html?aid=1893449&label=metagha-link-MRID-hotel-6535162_dev-desktop_los-1_bw-14_dow-Thursday_defdate-1_room-0_gstadt-2_rateid-public_aud-0_gacid-6644255675_mcid-10_ppa-0_clrid-0_ad-1_gstkid-0_checkin-20230629__lp-20441_r-1156517955722780688&sid=1937405b1b7b471269ea8809b5fa3f17&all_sr_blocks=653516201_364828552_2_17_0&checkin=2023-06-29&checkout=2023-06-30&dest_id=-2700920&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&highlighted_blocks=653516201_364828552_2_17_0&hpos=1&matching_block_id=653516201_364828552_2_17_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=653516201_364828552_2_17_0__57500000&srepoch=1686836419&srpvid=8aa060204e35016e&type=total&ucfs=1&activeTab=main",
+            "nameH" : "Todo Purang Tedeng Homestay",
+            "gambarH" : "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258929493.jpg?k=772dab01d7796e18da51de330e6dcc16719352c5268d88f8f926660e038919cd&o=&hp=1",
+            "rateH" : "-"
+          }
+        ]
       },
       {
         "id": "09",
@@ -79,7 +191,21 @@
         "pictureId": "https://cdn.idntimes.com/content-images/post/20191223/40631366-531988650577660-7215790408075278267-n-f63101028b9e47dd185bb2e7ae6d815c.jpg",
         "location": "Dusun Meko, Kecamatan Witihama, Kabupaten Flores Timur, Nusa Tenggara Timur",
         "time": "24 Jam",
-        "price": "Free"
+        "price": "Free",
+        "penginapan" : [
+          {
+            "linkH" : "https://m.tiket.com/hotel/indonesia/kuma-resort-lembata-by-the-lavana-508001661849471030?hotelID=f96996d7-ae7a-40f4-b4e9-17a263d97638&checkin=2023-06-29&checkout=2023-06-30&adult=2&country=ID&device=desktop&utm_source=google-hotel&utm_medium=hotelAds&utm_campaign=Google-Hotel-0023-B2B-none-hotel&gclid=Cj0KCQjw7aqkBhDPARIsAKGa0oJIMbgK6CoXG4DQaEZS1_E2ien_iIw0q0hM-SYtmYdtK4Lr8Ae1fi0aApsNEALw_wcB",
+            "nameH" : "Kuma Resort Lembata by The Lavana",
+            "gambarH" : "https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/t_htl-dskt/tix-hotel/images-web/2022/07/27/8cf35031-bc8e-4581-a78f-609dad9da746-1658891116331-f1759e3463051911f1ad77e64a306eec.jpg",
+            "rateH" : 4
+          },
+          {
+            "linkH" : "https://www.traveloka.com/id-id/hotel/indonesia/asa-hotel--restaurant-3000010011882",
+            "nameH" : "Asa Hotel & Restaurant",
+            "gambarH" : "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10011882-1500x1125-FIT_AND_TRIM-e15566dc5b0a818a6c0ce2bf1446fd0e.jpeg?_src=imagekit&tr=c-at_max,h-360,q-40,w-640",
+            "rateH" : 2
+          }
+        ]
       },
       {
         "id": "10",
@@ -88,7 +214,21 @@
         "pictureId": "https://cdn.idntimes.com/content-images/post/20191223/13651738-2055989084626220-1594787537-n-4a0fb9c63dceea86ee807639d5742222.jpg",
         "location": "Jalan Prof. Dr. Herman Johanes, Kelurahan Penfui, Kecamatan Kupang Tengah, Kota Kupang, Nusa Tenggara Timur",
         "time": "24 Jam",
-        "price": "Free"
+        "price": "Free",
+        "penginapan" : [
+          {
+            "linkH" : "https://m.tiket.com/hotel/indonesia/kuma-resort-lembata-by-the-lavana-508001661849471030?hotelID=f96996d7-ae7a-40f4-b4e9-17a263d97638&checkin=2023-06-29&checkout=2023-06-30&adult=2&country=ID&device=desktop&utm_source=google-hotel&utm_medium=hotelAds&utm_campaign=Google-Hotel-0023-B2B-none-hotel&gclid=Cj0KCQjw7aqkBhDPARIsAKGa0oJIMbgK6CoXG4DQaEZS1_E2ien_iIw0q0hM-SYtmYdtK4Lr8Ae1fi0aApsNEALw_wcB",
+            "nameH" : "Kuma Resort Lembata by The Lavana",
+            "gambarH" : "https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/t_htl-dskt/tix-hotel/images-web/2022/07/27/8cf35031-bc8e-4581-a78f-609dad9da746-1658891116331-f1759e3463051911f1ad77e64a306eec.jpg",
+            "rateH" : 4
+          },
+          {
+            "linkH" : "https://www.tripadvisor.co.id/Hotel_Review-g3342998-d3243384-Reviews-Hotel_Palm_Indah-Lewoleba_Lembata_Island_East_Nusa_Tenggara.html",
+            "nameH" : "Hotel Palm Indah",
+            "gambarH" : "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/10/a4/04/photo1jpg.jpg?w=1200&h=-1&s=1",
+            "rateH" : "-"
+          }
+        ]
       }
     ]
 }
