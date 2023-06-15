@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import UrlParser from '../../routes/url-parser';
 import data from './DATA.json';
 
@@ -25,8 +26,23 @@ const Detail = {
         <h4>More</h4>
         <p>Harga Tiket : ${destination.price}</p>
         <p>Time ${destination.time}</p>
+      </div>
       <div>
+        <h3>Penginapan</h3>
+        <div id="penginapanList"></div>
+      </div>
     `;
+
+    const penginapanListElement = document.querySelector('#penginapanList');
+    destination.penginapan.forEach((penginapan) => {
+      const div = document.createElement('div');
+      div.innerHTML = `
+        <a href="${penginapan.linkH}">${penginapan.nameH}</a>
+        <img src="${penginapan.gambarH}" alt="${penginapan.nameH}" title="${penginapan.nameH}">
+        <p>⭐️ ${penginapan.rateH}</span></p>
+      `;
+      penginapanListElement.appendChild(div);
+    });
   },
 };
 
