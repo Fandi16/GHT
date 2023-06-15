@@ -39,7 +39,7 @@
 		font-size: 2em;
 	}
 }
-@media (max-width: 740px) {
+@media screen and (max-width: 740px) {
  .content .information {
     flex-direction: column;
     font-size: 20px;
