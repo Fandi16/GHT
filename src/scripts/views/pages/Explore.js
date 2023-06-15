@@ -3,8 +3,11 @@ import data from './DATA.json';
 const explore = {
   async render() {
     return `
-        <div class="content-wisata">
-            <div class="list" id="tes"></div>
+        <div class="content-wisata"> 
+          <div class="title">
+            <h1>Which Destination do you want to go to?</h1>
+          </div>
+          <div class="list" id="tes"></div>
         </div>
     `;
   },

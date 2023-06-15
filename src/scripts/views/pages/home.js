@@ -4,6 +4,7 @@ const Home = {
   async render() {
     return `
       <div class="content">
+      <h2>GHT</h2>
           <div class="information">
               <div class="content-description">
                   <h1 class="title">Discover Your Destination</h1>

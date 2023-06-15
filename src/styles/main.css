@@ -187,7 +187,7 @@ main{
 main .content .information{
     flex: 1;
     display: flex;
-    align-items: center;
+    justify-content: space-between;
 }
 
 main .content .information .content-description{
@@ -195,14 +195,14 @@ main .content .information .content-description{
 }
 
 main .content .information .content-description .title{
-    font-size: 20px;
+    font-size: 25px;
     margin-block: 1rem;
     border-bottom: .2rem solid rgb(6, 88, 13);
 }
 
 main .content .information .content-description p {
     line-height: 1.7rem;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 main .content .information .content-image {
@@ -217,8 +217,14 @@ main .content .information .content-image img {
 }
 
 .content{
+    width: 100%;
     display: flex;
     align-items: center;
+}
+.content h2{
+    font-family: 'Rampart One', 'Shantell Sans', 'Quicksand', sans-serif;
+    font-size: 6em;
+    color: #253E45;
 }
 
 /*
@@ -226,18 +232,26 @@ CONTENT WISATA
 */
 
 .content-wisata{
-    padding-top: 50px;
+    padding-top: 30px;
     padding-bottom: 50px;
     align-items: center;
     justify-content: center;
 }
+.content-wisata .title h1{
+    font-family: 'Rampart One', 'Shantell Sans', 'Quicksand', sans-serif;
+    font-size: 3em;
+    color: #253E45;
+    text-align: center;
+    padding-bottom: 30px;
+}
 
 .content-wisata .content h1{
     font-size: 42px;
-    color: #000;
+    color: #253E45;
     font-family: 'Rampart One', 'Shantell Sans', 'Quicksand', sans-serif;
     text-align: center;
     padding-top: 50px;
+    padding-bottom: 20px;
 }
 
 .content-wisata .content img{
