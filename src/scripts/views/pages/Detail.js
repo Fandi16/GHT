@@ -24,7 +24,7 @@ const Detail = {
         <p>${destination.location}</p>
         <h4>More</h4>
         <p>Harga Tiket : ${destination.price}</p>
-        <p> Time ${destination.time}</p>
+        <p>Time ${destination.time}</p>
       <div>
     `;
   },
