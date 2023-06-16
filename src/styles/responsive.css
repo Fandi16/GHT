@@ -1,115 +1,131 @@
 @media screen and (min-width: 754px) {
-	.app-bar{
-		grid-template-columns: 1fr auto;
-		padding: 8px 32px;
-	}
+  .app-bar {
+    grid-template-columns: 1fr auto;
+    padding: 8px 32px;
+  }
 
-	.app-bar .app-bar__brand h1 {
-      font-size: 1.5em;
-    }
-   
-    .app-bar .app-bar__menu {
-      display: none;
-    }
-   
-    .app-bar .bar-nav {
-      position: static;
-      width: 100%;
-    }
-   
-    .app-bar .bar-nav ul li {
-      display: inline-block;
-    }
-   
-    .app-bar .bar-nav ul li a {
-      display: inline-block;
-      width: 120px;
-      text-align: center;
-      margin: 0;
-    }
+  .app-bar .app-bar__brand h1 {
+    font-size: 1.5em;
+  }
 
-    main .content {
-        flex-direction: column;
-        gap: 2rem;
-    }
+  .app-bar .app-bar__menu {
+    display: none;
+  }
+
+  .app-bar .bar-nav {
+    position: static;
+    width: 100%;
+  }
+
+  .app-bar .bar-nav ul li {
+    display: inline-block;
+  }
+
+  .app-bar .bar-nav ul li a {
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+    margin: 0;
+  }
+
+  main .content {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  section {
+    padding: 1em;
+  }
 }
 
 @media screen and (min-width: 863px) {
-	.app-bar .app-bar__brand h1{
-		font-size: 2em;
-	}
+  .app-bar .app-bar__brand h1 {
+    font-size: 2em;
+  }
 }
 @media screen and (max-width: 740px) {
- .content .information {
+  .content .information {
     flex-direction: column;
     font-size: 20px;
   }
-  .content .information .content-description p{
+  .content .information .content-description p {
     font-size: 20px;
   }
-  .content .information .content-description .title{
+  .content .information .content-description .title {
     font-size: 25px;
   }
-  .content-wisata .list{
+  .content-wisata .list {
     flex-direction: column;
     align-items: center;
-
   }
-  main .content .content-wisata{
+  main .content .content-wisata {
     flex-direction: column;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-   main .content{
+  main .content {
     flex-direction: column;
     align-items: center;
-   }
+  }
 }
 
-@media screen and (max-width: 850px){
-    main {
-        padding: 1rem 1rem;
-    }
+@media screen and (max-width: 850px) {
+  main {
+    padding: 1rem 1rem;
+  }
 
-    .hero__title{
-        font-size: 55px;
-    }
+  .hero__title {
+    font-size: 55px;
+  }
 
-    .hero__subtitle{
-        font-size: 25px;
-    }
+  .hero__subtitle {
+    font-size: 25px;
+  }
 
-    main .content .information .content-description{
-        flex: 1 1 1;
-    }
+  main .content .information .content-description {
+    flex: 1 1 1;
+  }
 
-    main .content .information .content-description .title{
-        font-size: 15px;
-        margin-block: 1rem;
-    }
+  main .content .information .content-description .title {
+    font-size: 15px;
+    margin-block: 1rem;
+  }
 
-    main .content .information .content-description p {
-        line-height: 1rem;
-        font-size: 10px;
-    }
-    
-    main .content .information .content-image {
-        flex: 1 1 1;
-        display: flex;
-    }
-       
-    main .content .information .content-image img {
-        margin: auto;
-        width: 50%;
-    }
+  main .content .information .content-description p {
+    line-height: 1rem;
+    font-size: 10px;
+  }
+
+  main .content .information .content-image {
+    flex: 1 1 1;
+    display: flex;
+  }
+
+  main .content .information .content-image img {
+    margin: auto;
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  section {
+    padding: 1em;
+  }
+  .card2 {
+    padding: 5em 1em;
+  }
+  .column {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    padding: 1em;
+  }
 }
 
 @media screen and (min-width: 1200px) {
-	.hero {
-		min-width: 1000px;
-	}
-	main {
-		max-width: 1200px
-	}
+  .hero {
+    min-width: 1000px;
+  }
+  main {
+    max-width: 1200px;
+  }
 }

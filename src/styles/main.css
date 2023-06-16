@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Montserrat:wght@300;600&family=Quicksand:wght@400;600&family=Rampart+One&family=Rubik+Iso&family=Shantell+Sans:ital,wght@1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=League+Spartan:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=League+Spartan:wght@400;700&family=Monoton&display=swap');
 
 *{
     padding: 0;
@@ -366,6 +366,121 @@ CONTENT WISATA
 
 
 
+/*
+ABOUT US
+*/
+.about-us{
+    width: 100%;
+    height: 100%;
+}
+.about-us .inner-we-do{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5rem 7%;
+    /* background: rgb(218,145,0); */
+}
+
+.about-us .inner-we-do h1{
+    font-family: 'Rampart One', 'Shantell Sans', 'Quicksand', sans-serif;
+    flex: 1 1 45rem;
+    text-align: center;
+    font-size: 4.5em;
+    color: #253E45;
+}
+.inner-we-do img{
+    width: 50%;
+}
+  
+.about-us .inner-we-do p{
+    font-family: 'Quicksand','Rampart One', 'Shantell Sans', sans-serif;
+    color: black;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    margin-bottom: 25px;
+    /* font-weight: 500; */
+}
+  
+.row {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.row h1{
+    font-family: 'Rampart One', 'Shantell Sans', 'Quicksand', sans-serif;
+    width: 100%;
+    text-align: center;
+    font-size: 4.5em;
+    color: #253E45;
+}
+  
+.column {
+    width: 80%;
+    padding: 0.5em 0;
+}
+  
+.card2{
+    box-shadow: 0 0 2.4em rgba(25, 0, 58, 0.1);
+    padding: 3.5em 1em;
+    border-radius: 0.6em;
+    color: #1f003b;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #e9e0e0;
+}
+.card2 .img-container{
+    width: 13em;
+    height: 13em;
+    background-color: #a993ff;
+    padding: 0.5em;
+    border-radius: 50%;
+    margin: 0 auto 2em auto;
+}
+.card2 img {
+    width: 100%;
+    border-radius: 50%;
+}
+.about-us .row .column .card2 h3{
+    font-family: 'Quicksand', 'Bitter', 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+}
+.card2 p {
+    font-weight: 500;
+    margin: 0.5em 0 2em 0;
+    letter-spacing: 2px;
+    font-family: 'Quicksand','Poppins', sans-serif;
+    color: #777;
+}
+.icons{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem 0;
+    margin-top: 1.5rem;
+    border-top: 5px solid rgba(241, 10, 10, 0.1);
+    font-size: 35px;
+    margin-bottom: -40px;
+}
+  
+.card2 a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.4em;
+}
+.card2:hover {
+    background: #253E45;
+    color: #ffffff;
+}
+.card2:hover .img-container {
+    transform: scale(1.2);
+}
 
 
 
