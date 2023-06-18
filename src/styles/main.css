@@ -227,8 +227,107 @@ main .content .information .content-image img {
     color: #253E45;
 }
 
-/*
-CONTENT WISATA
+/*DETAIL WISATA
+*/
+.imgdetail{
+    height: 650px;
+    width: 600px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.25);
+}
+.detailDestination {
+    display: flex;
+    background-color: #F0EDD4;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: #000;
+}
+.detailinfo {
+    margin-left: 30px;
+}
+.detailinfo h1 {
+    font-size: 60px;
+    margin-top: 10px;
+    font-weight: 700;
+    line-height: 70px;
+}
+.isidetail {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 20px;
+    margin-top: 10px;
+    justify-content: center;
+    padding: 20px;
+}
+.detailinfo h4 {
+    text-align: center;
+    text-decoration: none;
+    margin-top: 120px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 600;
+}
+.alamatdetail {
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 15px;
+    text-align: center;
+}
+.tiket {
+    font-style: normal;
+    font-weight: 550;
+    font-size: 20px;
+    margin-top: 15px;
+    line-height: 25px;
+    text-align: center;
+}
+.waktu {
+    font-style: normal;
+    font-weight: 550;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+}
+
+
+/*Penginapan*/
+.imgpenginapan {
+    width: 100%;
+    display: flex;
+    padding: 15px;
+    position: relative;
+    border-radius: 20px;
+}
+.penginapan {
+    position: relative;
+    background-color: #253E45;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 10px 4px 4px rgba(0, 0, 0, 0.25);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.penginapan h3 {
+    font-size: 15px;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: #F0EDD4;
+    margin: 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.penginapan a {
+    color: #e9e0e0;
+}
+.penginapan p {
+    color: #e9e0e0;
+    margin-bottom: 5px;
+}
+
+/*CONTENT WISATA
 */
 
 .content-wisata{

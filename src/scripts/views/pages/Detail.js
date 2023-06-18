@@ -15,19 +15,17 @@ const Detail = {
 
     const detailDestinationElement = document.querySelector('#detailDestination');
     detailDestinationElement.innerHTML = `
-      <img src="${destination.pictureId}" alt="${destination.name}" title="${destination.name}">
-      <h3>${destination.name}</h3>
-      <div class="restaurant__info">
-        <h3>Information</h3>
-        <h4>Description</h4>
-        <p>${destination.description}</p>
+      <img src="${destination.pictureId}" class="imgdetail" alt="${destination.name}" title="${destination.name}">
+      <div class="detailinfo">
+      <h1>${destination.name}</h1>
+        <p class="isidetail">${destination.description}</p>
         <h4>Address</h4>
-        <p>${destination.location}</p>
-        <h4>More</h4>
-        <p>Harga Tiket : ${destination.price}</p>
-        <p>Time ${destination.time}</p>
+        <p class="alamatdetail">${destination.location}</p>
+        <p class="tiket">Harga Tiket : ${destination.price}</p>
+        <p class="waktu">Time ${destination.time}</p>
       </div>
-      <div>
+
+      <div class="penginapan">
         <h3>Penginapan</h3>
         <div id="penginapanList"></div>
       </div>
@@ -37,9 +35,11 @@ const Detail = {
     destination.penginapan.forEach((penginapan) => {
       const div = document.createElement('div');
       div.innerHTML = `
+      <div class="listpenginapan">
         <a href="${penginapan.linkH}">${penginapan.nameH}</a>
-        <img src="${penginapan.gambarH}" alt="${penginapan.nameH}" title="${penginapan.nameH}">
+        <img src="${penginapan.gambarH}" class="imgpenginapan" alt="${penginapan.nameH}" title="${penginapan.nameH}">
         <p>⭐️ ${penginapan.rateH}</span></p>
+      </div>
       `;
       penginapanListElement.appendChild(div);
     });
