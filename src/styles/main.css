@@ -473,11 +473,9 @@ ABOUT US
     height: 100%;
 }
 .about-us .inner-we-do{
-    display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding: 5rem 7%;
     /* background: rgb(218,145,0); */
 }
 
@@ -501,38 +499,40 @@ ABOUT US
     text-align: justify;
     /* font-weight: 500; */
 }
-  
+
 .row {
     display: flex;
+    position: relative;
     align-items: center;
     align-content: center;
     text-align: center;
-    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
 }
 
 .row h1{
     font-family: 'Rampart One', 'Shantell Sans', 'Quicksand', sans-serif;
-    width: 100%;
     text-align: center;
+    margin-bottom: 15px;
     font-size: 4.5em;
     color: #253E45;
 }
-  
+
 .column {
-    width: 80%;
-    padding: 0.5em 0;
+    justify-content: center;
 }
-  
+
 .card2{
-    box-shadow: 0 0 2.4em rgba(25, 0, 58, 0.1);
-    padding: 3.5em 1em;
-    border-radius: 0.6em;
+    height: 400px;
+    width: 85%;
+    justify-content: center;
+    box-shadow: 4px 10px 7px rgba(25, 0, 58, 0.1);
+    border-radius: 50px;
     color: #1f003b;
     cursor: pointer;
     transition: 0.3s;
     background-color: #e9e0e0;
+    margin-left: 20px;
 }
 .card2 .img-container{
     width: 13em;
@@ -549,11 +549,13 @@ ABOUT US
 .about-us .row .column .card2 h3{
     font-family: 'Quicksand', 'Bitter', 'Montserrat', sans-serif;
     font-weight: 800;
-    font-size: 30px;
+    font-size: 20px;
+    padding: 5px;
 }
 .card2 p {
-    font-weight: 500;
+    font-weight: 900;
     margin: 0.5em 0 2em 0;
+    line-height: 24px;
     letter-spacing: 2px;
     font-family: 'Quicksand','Poppins', sans-serif;
     color: #777;
@@ -562,7 +564,7 @@ ABOUT US
     width: 100%;
     display: flex;
     justify-content: space-evenly;
-    padding: 2rem 0;
+    padding: 10px;
     margin-top: 1.5rem;
     border-top: 5px solid rgba(241, 10, 10, 0.1);
     font-size: 35px;
@@ -572,7 +574,7 @@ ABOUT US
 .card2 a {
     text-decoration: none;
     color: inherit;
-    font-size: 1.4em;
+    font-size: 1.0em;
 }
 .card2:hover {
     background: #253E45;

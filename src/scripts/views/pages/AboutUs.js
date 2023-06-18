@@ -27,8 +27,6 @@ const AboutUs = {
                 <h3> Ilham Maulana Putra</h3>
                 <p>Web Developer</p>
                 <div class="icons">
-                  <a href="#" style="color: #3b5999;"><i class="fa-brands fa-facebook"></i></a>
-                  <a href="#" style="color: #55acee;"><i class="fa-brands fa-twitter"></i></a>
                   <a href="https://www.instagram.com/ilhamptrr/" style="color: #e6683c;"><i class="fa-brands fa-instagram"></i></a>
                   <a href="https://www.linkedin.com/in/ilhamptrr/" style="color: #012165;"><i class="fa-brands fa-linkedin-in"></i></a>
                 </div>
@@ -43,8 +41,6 @@ const AboutUs = {
                 <h3>Khoir Afandi</h3>
                 <p>Web Developer</p>
                 <div class="icons">
-                  <a href="#" style="color: #3b5999;"><i class="fa-brands fa-facebook"></i></a>
-                  <a href="#" style="color: #55acee;"><i class="fa-brands fa-twitter"></i></a>
                   <a href="https://instagram.com/fandi.16_?igshid=ZDc4ODBmNjlmNQ==" style="color: #e6683c;"><i class="fa-brands fa-instagram"></i></a>
                   <a href="https://www.linkedin.com/in/khoir-afandi-780433204" style="color: #012165;"><i class="fa-brands fa-linkedin-in"></i></a>
                 </div>
@@ -59,8 +55,6 @@ const AboutUs = {
                 <h3>Monica Audry</h3>
                 <p>Web Developer</p>
                 <div class="icons">
-                  <a href="#" style="color: #3b5999;"><i class="fa-brands fa-facebook"></i></a>
-                  <a href="#" style="color: #55acee;"><i class="fa-brands fa-twitter"></i></a>
                   <a href="https://www.instagram.com/audry.monica/" style="color: #e6683c;"><i class="fa-brands fa-instagram"></i></a>
                   <a href="https://www.linkedin.com/in/monica-audry-74504121a/" style="color: #012165;"><i class="fa-brands fa-linkedin-in"></i></a>
                 </div>
@@ -72,11 +66,9 @@ const AboutUs = {
                 <div class="img-container">
                   <img src="../image/member4.jpg">
                 </div>
-                <h3>M Isyraf Naufal Aththabarani</h3>
+                <h3>M Isyraf Naufal A</h3>
                 <p>Web Developer</p>
                 <div class="icons">
-                  <a href="#" style="color: #3b5999;"><i class="fa-brands fa-facebook"></i></a>
-                  <a href="#" style="color: #55acee;"><i class="fa-brands fa-twitter"></i></a>
                   <a href="https://www.instagram.com/isyrafna/" style="color: #e6683c;"><i class="fa-brands fa-instagram"></i></a>
                   <a href="https://www.linkedin.com/in/muhammad-isyraf-naufal-aththabarani-b583b8215/" style="color: #012165;"><i class="fa-brands fa-linkedin-in"></i></a>
                 </div>
