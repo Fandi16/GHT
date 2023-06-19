@@ -5,6 +5,7 @@ import './components/app-bar';
 import './components/jumbotran';
 import './components/footer';
 import App from './views/app';
+import swRegister from './utils/sw-register';
 
 const hamburgerButtonElement = document.querySelector('#hamburgerButton');
 const drawerElement = document.querySelector('#drawer');
@@ -28,4 +29,5 @@ window.addEventListener('hashchange', () => {
 
 window.addEventListener('load', () => {
   app.renderPage();
+  swRegister();
 });

@@ -1,5 +1,7 @@
+/* eslint-disable prefer-regex-literals */
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
+const WorkboxWebpackPlugin = require('workbox-webpack-plugin');
 const path = require('path');
 
 module.exports = {
@@ -36,6 +38,23 @@ module.exports = {
         {
           from: path.resolve(__dirname, 'src/public/'),
           to: path.resolve(__dirname, 'dist/'),
+        },
+      ],
+    }),
+    new WorkboxWebpackPlugin.GenerateSW({
+      swDest: './sw.bundle.js',
+      skipWaiting: true,
+      clientsClaim: true,
+      runtimeCaching: [
+        {
+          urlPattern: new RegExp('./src/scripts/views/pages/DATA.json'),
+          handler: 'StaleWhileRevalidate',
+          options: {
+            cacheName: 'GHTour-V1',
+            cacheableResponse: {
+              statuses: [0, 200],
+            },
+          },
         },
       ],
     }),
