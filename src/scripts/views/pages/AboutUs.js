@@ -6,7 +6,7 @@ const AboutUs = {
           <h1>What we do</h1>
           <p>
             Website Green Hunter Tour(GHT) dibuat untuk membantu wisatawan dalam mencari informasi wisata yang ada di Provinsi Nusa Tenggara Timur, dan juga sebagai ajang promosi daerah wisata Provinsi Nusa Tenggara Timur ke seluruh masyarakat Indonesia.
-            Selain itu, diharapkah dengan adanya website ini dapat membantu perekonomian para pengusaha setempat dengan meningkatnya jumlah wisatawan.
+            Selain itu, diharapkan dengan adanya website ini dapat membantu perekonomian para pengusaha setempat dengan meningkatnya jumlah wisatawan.
           </p>
         </div>
 
