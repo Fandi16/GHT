@@ -131,7 +131,22 @@
     width: 50%;
   }
 }
-
+@media screen and (max-width: 992px){
+  .detailDestination {
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+  
+    }
+  
+    .detailDestination img {
+      width: 70%;
+    }
+  
+    .detailDestination .detailinfo {
+      padding: 20px;
+    }
+}
 @media screen and (min-width: 992px) {
   section {
     padding: 1em;
@@ -150,6 +165,7 @@
   .hero__subtitle {
     font-size: 35px;
   }
+  
 }
 
 @media screen and (min-width: 1200px) {
