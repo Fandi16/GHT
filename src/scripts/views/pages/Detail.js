@@ -6,6 +6,7 @@ const Detail = {
   async render() {
     return `
           <div id="detailDestination" class="detailDestination"></div>
+          <div class="source">Acomodation Source: Clicking on the inn's name will take you directly to the content source.</div>
         `;
   },
   async afterRender() {

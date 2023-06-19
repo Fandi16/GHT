@@ -230,7 +230,8 @@ main .content .information .content-image img {
     color: #253E45;
 }
 
-/*DETAIL WISATA
+/*
+    DETAIL WISATA
 */
 .imgdetail{
     height: 650px;
@@ -645,4 +646,13 @@ FOOTER
 
 .footer .credit span {
     color: rgb(250, 253, 43);
+}
+
+/*
+    DETAIL WISATA
+*/
+
+.source {
+    text-align: center;
+    margin-top: 50px;
 }
