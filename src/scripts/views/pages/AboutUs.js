@@ -2,29 +2,26 @@ const AboutUs = {
   async render() {
     return `
       <div class="about-us">
-            <div class="inner-we-do">
-              <h1>What we do</h1>
-              <p>
-                Website Green Hunter Tour(GHT) dibuat untuk membantu wisatawan dalam mencari informasi wisata yang ada di Provinsi Nusa Tenggara Timur, dan juga sebagai ajang promosi daerah wisata Provinsi Nusa Tenggara Timur ke seluruh masyarakat Indonesia.
-                Selain itu, diharapkah dengan adanya website ini dapat membantu perekonomian para pengusaha setempat dengan meningkatnya jumlah wisatawan.
-              </p>
-            </div>
+        <div class="inner-we-do">
+          <h1>What we do</h1>
+          <p>
+            Website Green Hunter Tour(GHT) dibuat untuk membantu wisatawan dalam mencari informasi wisata yang ada di Provinsi Nusa Tenggara Timur, dan juga sebagai ajang promosi daerah wisata Provinsi Nusa Tenggara Timur ke seluruh masyarakat Indonesia.
+            Selain itu, diharapkah dengan adanya website ini dapat membantu perekonomian para pengusaha setempat dengan meningkatnya jumlah wisatawan.
+          </p>
+        </div>
+
+        <div class="teamTitle">
+          <h1>Our Team</h1>
+        </div> 
 
         <section>
-          
           <div class="row">
-            <h1>Our Team</h1>
-          </div> 
-          
-          <div class="row">
-          
-            <!--  Column 1 -->
             <div class="column">
               <div class="card2">
                 <div class="img-container">
                   <img src="../image/member1.jpg">
                 </div>
-                <h3> Ilham Maulana Putra</h3>
+                <h3> Ilham Maulana P</h3>
                 <p>Web Developer</p>
                 <div class="icons">
                   <a href="https://www.instagram.com/ilhamptrr/" style="color: #e6683c;"><i class="fa-brands fa-instagram"></i></a>

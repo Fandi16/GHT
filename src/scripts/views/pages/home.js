@@ -40,6 +40,8 @@ const Home = {
                 <button><a href="/#/explore">More Destination</a></button>
             </div>
         </div>
+
+        <div class="source">Destination Source: <span><a href="https://www.idntimes.com/"><b>IDN Times</b></a></span></div>
     `;
   },
 
@@ -62,7 +64,6 @@ const Home = {
                       </div>
                   </div>
               </div>
-          
       `;
 
       listElement.innerHTML += listItem;
