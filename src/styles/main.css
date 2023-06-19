@@ -181,7 +181,7 @@ MAIN
 
 main{
     max-width: 1200px;
-    width: 100%;
+    width: 90%;
     margin-inline: auto;
     padding: 2rem 4rem;
     align-items: center;
@@ -466,11 +466,10 @@ main .content .information .content-image img {
     transform: perspective(600px) rotateY(360deg);
 }
 
-
-
 /*
-ABOUT US
+    ABOUT US
 */
+
 .about-us{
     width: 100%;
     height: 100%;
@@ -503,17 +502,21 @@ ABOUT US
     /* font-weight: 500; */
 }
 
-.row {
+.about-us section {
     display: flex;
-    position: relative;
     align-items: center;
     align-content: center;
     text-align: center;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
 }
 
-.row h1{
+.row {
+    display: grid;
+    grid-row-gap: 12px;
+}
+
+.teamTitle h1{
     font-family: 'Rampart One', 'Shantell Sans', 'Quicksand', sans-serif;
     text-align: center;
     margin-bottom: 15px;
@@ -522,28 +525,31 @@ ABOUT US
 }
 
 .column {
-    justify-content: center;
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    padding: 1em;
 }
 
 .card2{
-    height: 400px;
-    width: 85%;
+    height: 280px;
+    width: 210px;
     justify-content: center;
-    box-shadow: 4px 10px 7px rgba(25, 0, 58, 0.1);
-    border-radius: 50px;
+    box-shadow: 4px 10px 7px rgba(68, 52, 88, 0.1);
+    border-radius: 30px;
     color: #1f003b;
     cursor: pointer;
     transition: 0.3s;
     background-color: #e9e0e0;
-    margin-left: 20px;
+    padding: 5em 1em;
 }
 .card2 .img-container{
-    width: 13em;
-    height: 13em;
+    width: 9em;
+    height: 9em;
     background-color: #a993ff;
     padding: 0.5em;
     border-radius: 50%;
     margin: 0 auto 2em auto;
+    margin-top: -40px;
 }
 .card2 img {
     width: 100%;
@@ -553,22 +559,19 @@ ABOUT US
     font-family: 'Quicksand', 'Bitter', 'Montserrat', sans-serif;
     font-weight: 800;
     font-size: 20px;
-    padding: 5px;
 }
 .card2 p {
     font-weight: 900;
-    margin: 0.5em 0 2em 0;
-    line-height: 24px;
     letter-spacing: 2px;
     font-family: 'Quicksand','Poppins', sans-serif;
     color: #777;
+    margin-bottom: 15px;
 }
 .icons{
     width: 100%;
     display: flex;
     justify-content: space-evenly;
     padding: 10px;
-    margin-top: 1.5rem;
     border-top: 5px solid rgba(241, 10, 10, 0.1);
     font-size: 35px;
     margin-bottom: -40px;
